@@ -104,7 +104,7 @@ else:
     while True:
         us = str(''.join((random.choice(user) for i in range(7))))
         username = '+21266' + us
-        password = '06' + us
+        password = '066' + us
         from uuid import uuid4
         uid = str(uuid4())
         data = {'uuid':uid, 
